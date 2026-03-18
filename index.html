@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phragmites — Studio Tecnico Agronomico</title>
+  <meta name="description" content="Studio Tecnico Agronomico con sede a Copparo (FE). Consulenza nei settori Agricoltura, Ambiente e Tecnologie Alimentari dal 1996.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-logo">
+        Phragmites
+        <span>Studio Tecnico Agronomico</span>
+      </div>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="chi-siamo.html">Chi siamo</a></li>
+        <li><a href="agricoltura.html">Agricoltura</a></li>
+        <li><a href="ambiente.html">Ambiente</a></li>
+        <li><a href="tecnologie-alimentari.html">Tecnologie Alimentari</a></li>
+        <li><a href="contatti.html" class="nav-cta">Contatti</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1>Consulenza professionale per il settore agroambientale e agroalimentare</h1>
+      <p>Dal 1996 affianchiamo agricoltori, enti pubblici e privati con competenza tecnica e conoscenza del territorio del Basso Ferrarese.</p>
+      <a href="#settori" class="hero-cta">Scopri i nostri servizi</a>
+      <p class="hero-sub">Copparo, Ferrara — Emilia-Romagna</p>
+    </div>
+  </section>
+
+  <!-- SETTORI -->
+  <section class="settori" id="settori">
+    <div class="container">
+      <p class="section-label">Aree di consulenza</p>
+      <h2 class="section-title">Tre settori, una competenza integrata</h2>
+      <div class="cards">
+
+        <div class="card">
+          <div class="card-icon">🌾</div>
+          <h3>Agricoltura</h3>
+          <p>Supportiamo agricoltori singoli e associati verso produzioni di qualità, economicamente sostenibili e orientate al mercato. Qualità e tutela dell'ambiente sono le parole chiave del settore.</p>
+          <a href="agricoltura.html" class="card-link">Approfondisci →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🌿</div>
+          <h3>Ambiente</h3>
+          <p>Consulenza per enti pubblici e privati sulla protezione ambientale e il miglioramento della qualità del verde urbano, bene collettivo da salvaguardare e valorizzare.</p>
+          <a href="ambiente.html" class="card-link">Approfondisci →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🔬</div>
+          <h3>Tecnologie Alimentari</h3>
+          <p>Competenze specialistiche nel settore agroalimentare, per accompagnare aziende e professionisti nella valorizzazione e nella qualità delle produzioni alimentari.</p>
+          <a href="tecnologie-alimentari.html" class="card-link">Approfondisci →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CHI SIAMO -->
+  <section class="chi-siamo">
+    <div class="container">
+      <div class="chi-siamo-grid">
+        <div class="chi-siamo-text">
+          <p class="section-label">Chi siamo</p>
+          <h2 class="section-title">Uno studio fondato sulla conoscenza del territorio</h2>
+          <p>Phragmites è uno Studio Tecnico Agronomico fondato nel 1996 da professionisti del settore agroambientale e agroalimentare, con sede a Copparo in provincia di Ferrara.</p>
+          <p>Il nome è legato all'ambiente del Basso Ferrarese: <em>Phragmites</em> è il nome scientifico della canna di palude, ampiamente diffusa nelle zone umide del Delta del Po — un ecosistema che è parte identitaria del territorio in cui operiamo.</p>
+          <a href="chi-siamo.html" class="card-link">La nostra storia →</a>
+        </div>
+        <div class="chi-siamo-visual">
+          <div class="anno">1996</div>
+          <div class="anno-label">Anno di fondazione</div>
+          <div class="sede">
+            <strong>Copparo (FE)</strong>
+            Provincia di Ferrara<br>
+            Emilia-Romagna
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IL NOME -->
+  <section class="nome-section">
+    <div class="container">
+      <h2>Il Delta del Po come riferimento identitario</h2>
+      <p>Il nome <em>Phragmites</em> proviene dal nome scientifico della canna di palude, pianta emblematica delle zone umide del Delta del Po. Legare il nome dello studio a questo ambiente non è solo una scelta geografica: è una dichiarazione di appartenenza a un territorio e alla sua vocazione agroambientale.</p>
+    </div>
+  </section>
+
+  <!-- CONTATTI -->
+  <section class="contatti" id="contatti">
+    <div class="container">
+      <div class="contatti-grid">
+        <div>
+          <p class="section-label">Contatti</p>
+          <h2 class="section-title">Scrivici</h2>
+          <p style="color: var(--text-muted); margin-bottom: 12px;">Per informazioni sui nostri servizi o per richiedere una consulenza, compila il modulo o scrivici direttamente.</p>
+          <p style="color: var(--text-muted);">Rispondiamo entro 48 ore lavorative.</p>
+        </div>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="nome">Nome e cognome</label>
+            <input type="text" id="nome" name="nome" placeholder="Mario Rossi" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Indirizzo email</label>
+            <input type="email" id="email" name="email" placeholder="mario@esempio.it" required>
+          </div>
+          <div class="form-group">
+            <label for="provincia">Provincia</label>
+            <select id="provincia" name="provincia">
+              <option value="">Seleziona provincia</option>
+              <option>Ferrara</option>
+              <option>Bologna</option>
+              <option>Ravenna</option>
+              <option>Modena</option>
+              <option>Rovigo</option>
+              <option>Altra provincia</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="messaggio">Messaggio</label>
+            <textarea id="messaggio" name="messaggio" placeholder="Descrivi brevemente di cosa hai bisogno..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Invia messaggio</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">Phragmites — Studio Tecnico Agronomico</div>
+        <div>Copparo (FE) &nbsp;·&nbsp; Fondato nel 1996</div>
+        <div>
+          <a href="agricoltura.html" style="color:#aaa; margin-right:16px;">Agricoltura</a>
+          <a href="ambiente.html" style="color:#aaa; margin-right:16px;">Ambiente</a>
+          <a href="tecnologie-alimentari.html" style="color:#aaa;">Tecnologie Alimentari</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const links  = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      toggle.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', open);
+    });
+    links.querySelectorAll('a').forEach(a =>
+      a.addEventListener('click', () => {
+        links.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', false);
+      })
+    );
+  </script>
+</body>
+</html>
